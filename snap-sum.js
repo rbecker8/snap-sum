@@ -1,3 +1,7 @@
-console.log(
-	[1, 2, 3, 4].reduce((a, b) => a + b, 0)
-);
+function sumArray(arrayToSum) {
+	let sum = 0;
+	for(let i = 0; i < arrayToSum.length; i++) {
+		sum = sum + arrayToSum[i];
+	}
+	return sum;
+}
